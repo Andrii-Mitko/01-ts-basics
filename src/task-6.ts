@@ -1,7 +1,7 @@
 
-type T = number | string | boolean;
 
-function getFirstElement(arr: T[]): T {
+
+function getFirstElement(arr: any[]): any {
   return arr[0];
 }
 
