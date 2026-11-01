@@ -6,4 +6,5 @@ function getMessage(): Promise<string> {
   });
 }
 
-getMessage().then(result => console.log(result));
+getMessage().then((result) => console.log(result));
+export {};
